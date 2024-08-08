@@ -2,12 +2,19 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    fontFamily: {},
+    fontFamily: {
+      Poppins: ["Poppins", "sans-serif"],
+      Inter: ["Inter", "sans-serif"],
+      Manrope: ["Manrope", "sans-serif"],
+      Geist: ["Geist"],
+    },
     colors: {},
 
     extend: {
       backgroundImage: {},
-      boxShadow: {},
+      boxShadow: {
+        Shadow1: "0px 2px 10px 0px #0000001A",
+      },
       keyframes: {},
       animation: {},
     },

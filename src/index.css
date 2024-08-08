@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Geist";
+  src: url("./assets/fonts/GeistVF.woff2") format("woff2");
+  font-display: swap;
+  font-style: normal;
+}
+
+@layer base {
+  body {
+    @apply font-Poppins;
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply mx-auto max-w-[1440px];
+  }
+
+  header .nav-list a.active {
+    color: #09090b;
+  }
+}
