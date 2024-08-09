@@ -8,7 +8,7 @@ const Online = () => {
   return (
     <section className="bg-[#FAFAFA]">
       <div className="pb-[104.75px] pt-[20px]">
-        <div className="border border-solid border-[#00000014] bg-[#ffffff]">
+        <div className="border-t border-solid border-[#00000014] bg-[#ffffff]">
           <div className="container px-[120px] pb-[32px] pt-[29px]">
             <div className="ml-[57px] flex items-center gap-[14px]">
               <div>

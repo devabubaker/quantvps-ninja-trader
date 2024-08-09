@@ -7,7 +7,7 @@ const Optimize = () => {
     <section className="bg-[#FAFAFA]">
       <div className="container px-[80px]">
         <div className="bg-[#FFFFFF] p-[20px]">
-          <div className="relative h-[164px] w-[100%] overflow-hidden rounded-[10px] bg-[#15141A] px-[14px] pt-[38px]">
+          <div className="relative h-[164px] w-[100%] overflow-hidden rounded-[10px] bg-[#15141A] px-[30px] pt-[38px]">
             <div className="flex justify-between">
               <div className="w-[404px]">
                 <h6 className="text-[16px] font-normal leading-[24px] text-[#FF4200]">
@@ -49,7 +49,7 @@ const Optimize = () => {
             </span>
           </div>
 
-          <div className="shadow-Shadow3 relative z-[1] mx-auto mt-[-25px] h-[48.35px] w-[500px] rounded-[30px] bg-[#ffffff] px-[32px] py-[11px]">
+          <div className="relative z-[1] mx-auto mt-[-25px] h-[48.35px] w-[500px] rounded-[30px] bg-[#ffffff] px-[32px] py-[11px] shadow-Shadow3">
             <p className="flex items-center justify-center gap-[5px] text-[13.7px] font-light leading-[23.23px] text-[#15141A]">
               We are rated <span className="font-semibold">4.9</span> on{" "}
               <img src={TrustPilot} alt="vector" className="max-w-[78px]" /> 
