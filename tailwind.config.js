@@ -20,6 +20,7 @@ export default {
         Shadow1: "0px 2px 10px 0px #0000001A",
         Shadow2: "0px 1px 2px 0px #0000000D",
         Shadow3: "0px 7.86px 30.48px -2.62px #10182833",
+        Shadow4: "0px 4px 6px -1px #0000001A",
       },
       keyframes: {},
       animation: {},

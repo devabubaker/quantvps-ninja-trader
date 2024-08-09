@@ -63,7 +63,8 @@ export const SetupData = [
     id: 0,
     imgUrl: NumberOne,
     title: "Deploy Server",
-    content: `Use our VPS Configurator to determine which plan you’ll need depending on RAM/CPU requirements`,
+    content:
+      "Use our VPS Configurator to determine which plan you’ll need depending on RAM/CPU requirements",
   },
 
   {
@@ -80,5 +81,107 @@ export const SetupData = [
     title: "Trade & Scale",
     content:
       "Drag your strategies into Remote Desktop. That’s it. Optimize Your Execution.",
+  },
+];
+
+export const AccordionData1 = [
+  {
+    id: 0,
+    title: "Ultra Low Latency",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 1,
+    title: "100% Uptime Guarantee SLA",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 2,
+    title: "Latest Generation Technology",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 3,
+    title: "24/7 Support, US-Based Support",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 4,
+    title: "High-Powered Hardware",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 5,
+    title: "QuantVPS in Action",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+];
+
+export const AccordionData2 = [
+  {
+    id: 0,
+    title: "Rock Solid Stability",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 1,
+    title: "Facilitating Global Best Execution",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 2,
+    title: "Max Security",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 3,
+    title: "Enterprise Grade Datacenter",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 4,
+    title: "Trade Any Platform",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 5,
+    title: "Ultra Low Latency",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 6,
+    title: "Cutting-Edge Technology",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 7,
+    title: "Summary",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
   },
 ];
