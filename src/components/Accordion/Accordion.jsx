@@ -13,7 +13,7 @@ const Accordion = ({ title, content }) => {
   return (
     <div>
       <div
-        className="flex h-[56px] w-[100%] cursor-pointer items-center justify-between border-b border-solid border-[#E2E8F0]"
+        className="flex h-[56px] w-[100%] cursor-pointer items-center justify-between"
         onClick={toggleAccordion}
       >
         <h5 className="font-Geist text-[16px] font-medium leading-[24px] text-[#0F172A]">
@@ -29,7 +29,7 @@ const Accordion = ({ title, content }) => {
 
       <div
         ref={contentRef}
-        className="transition-max-height overflow-hidden duration-300"
+        className="transition-max-height overflow-hidden border-b border-solid border-[#E2E8F0] duration-300"
         style={{
           maxHeight: isActive ? `${contentRef.current.scrollHeight}px` : "0px",
         }}
@@ -38,7 +38,7 @@ const Accordion = ({ title, content }) => {
           {content}
         </p>
 
-        <button className="inline-flex h-[38px] w-[200px] items-center justify-center rounded-[8px] border border-solid border-[#000000] text-[14px] font-bold leading-[20px] text-[#000000] shadow-Shadow4">
+        <button className="mb-[20px] inline-flex h-[38px] w-[200px] items-center justify-center rounded-[8px] border border-solid border-[#000000] text-[14px] font-bold leading-[20px] text-[#000000] shadow-Shadow4">
           Check Broker Latency
         </button>
       </div>
