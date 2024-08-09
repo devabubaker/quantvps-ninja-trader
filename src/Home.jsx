@@ -1,4 +1,5 @@
 import CoreFeatures from "./components/CoreFeatures/CoreFeatures";
+import Faq from "./components/Faq/Faq";
 import Hero from "./components/Hero/Hero";
 import MoreInformation from "./components/MoreInformation/MoreInformation";
 import Optimize from "./components/Optimize/Optimize";
@@ -19,6 +20,8 @@ const Home = () => {
       <Setup />
 
       <MoreInformation />
+
+      <Faq />
     </>
   );
 };

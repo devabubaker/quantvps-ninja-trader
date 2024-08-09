@@ -185,3 +185,86 @@ export const AccordionData2 = [
       "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
   },
 ];
+
+export const AccordionData3 = [
+  {
+    id: 0,
+    title: "What is NinjaTrader?",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 1,
+    title:
+      "Why should I use a Virtual Private Server (VPS) to execute my trading systems?",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 2,
+    title:
+      "What are the benefits of using a Virtual Private Server for NinjaTrader?",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 3,
+    title:
+      "Which is the best VPS plan for running automated trading strategies?",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 4,
+    title:
+      "What is the difference between the Chicago and New York data center location?",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 5,
+    title: "What is VPS hosting for futures trading?",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 6,
+    title: "What is the latency to brokers or CME on the NinjaTrader VPS?",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 7,
+    title: "How long does it take to deploy a VPS?",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 8,
+    title: "How many trading strategies can I run on my VPS?",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 9,
+    title: "Can the support team help me get setup?",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 10,
+    title: "Do you offer dedicated servers for NinjaTrader?",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+];
