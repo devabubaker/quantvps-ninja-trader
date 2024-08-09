@@ -1,3 +1,7 @@
+import NumberOne from "../assets/images/1.svg.svg";
+import NumberTwo from "../assets/images/2.svg.svg";
+import NumberThree from "../assets/images/3.svg.svg";
+
 export const CoreFeaturesData = [
   {
     id: 0,
@@ -51,5 +55,30 @@ export const CoreFeaturesData = [
     title: "NinjaTrader Optimized",
     content:
       "Run NinjaTrader at full capacity while remaining stable, keeping your algos online 24/7",
+  },
+];
+
+export const SetupData = [
+  {
+    id: 0,
+    imgUrl: NumberOne,
+    title: "Deploy Server",
+    content: `Use our VPS Configurator to determine which plan you’ll need depending on RAM/CPU requirements`,
+  },
+
+  {
+    id: 1,
+    imgUrl: NumberTwo,
+    title: "Download NT8",
+    content:
+      "Download NinjaTrader 8 via the Official Download link from NinjaTrader.com",
+  },
+
+  {
+    id: 2,
+    imgUrl: NumberThree,
+    title: "Trade & Scale",
+    content:
+      "Drag your strategies into Remote Desktop. That’s it. Optimize Your Execution.",
   },
 ];
