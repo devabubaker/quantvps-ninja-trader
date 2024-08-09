@@ -15,7 +15,7 @@ import CheckBrokerLatencyArrow from "../../assets/images/icons/check-broker-late
 const TradingPricing = () => {
   return (
     <section className="bg-[#09090B] pb-[38px] pt-[50px]">
-      <div className="mx-auto flex max-w-[450px] items-start justify-center gap-[16px]">
+      <div className="flex items-start justify-center gap-[16px]">
         <div>
           <img src={TradingPricingArrow} alt="vector" />
         </div>
