@@ -4,8 +4,8 @@ import { CoreFeaturesData } from "../../constants";
 
 const CoreFeatures = () => {
   return (
-    <section className="p-[80px]">
-      <div className="container">
+    <section>
+      <div className="container p-[80px]">
         <div className="flex flex-col items-center text-center">
           <h3 className="text-[38px] font-semibold leading-[45px] text-[#000000]">
             8 Core Features - QuantVPS NT8 Servers

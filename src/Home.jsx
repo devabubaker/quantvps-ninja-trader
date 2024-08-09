@@ -1,5 +1,6 @@
 import CoreFeatures from "./components/CoreFeatures/CoreFeatures";
 import Hero from "./components/Hero/Hero";
+import Optimize from "./components/Optimize/Optimize";
 import TradingPricing from "./components/TradingPricing/TradingPricing";
 
 const Home = () => {
@@ -10,6 +11,8 @@ const Home = () => {
       <TradingPricing />
 
       <CoreFeatures />
+
+      <Optimize />
     </>
   );
 };
