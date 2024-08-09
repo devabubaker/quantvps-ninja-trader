@@ -11,8 +11,15 @@ import MilitaryGrade from "../../assets/images/icons/military-grade.svg";
 import InstantActivation from "../../assets/images/icons/instant-activation.svg";
 import WorkFreeCheck from "../../assets/images/icons/work-free-check.svg";
 import CheckBrokerLatencyArrow from "../../assets/images/icons/check-broker-latency-arrow.svg";
+import { useState } from "react";
 
 const TradingPricing = () => {
+  const [priceUpdate, setPriceUpdate] = useState(true);
+
+  const priceChange = (price) => {
+    setPriceUpdate(price === "monthly");
+  };
+
   return (
     <section className="bg-[#09090B] pb-[38px] pt-[50px]">
       <div className="flex items-start justify-center gap-[16px]">
@@ -33,17 +40,23 @@ const TradingPricing = () => {
 
       <div className="flex flex-col items-center">
         <div className="mb-[38px] mt-[24px] flex h-[48px] w-[175px] items-center justify-between rounded-[6px] bg-[#27272A] px-[8px] py-[6px]">
-          <button className="inline-flex h-[100%] w-[87px] items-center justify-center rounded-[4px] bg-[#09090B] px-[12px] py-[6px] font-Inter text-[16px] font-medium text-[#FAFAFA]">
+          <button
+            onClick={() => priceChange("monthly")}
+            className={`price-btn ${priceUpdate ? "active" : ""} inline-flex h-[100%] w-[87px] items-center justify-center rounded-[4px] px-[12px] py-[6px] font-Inter text-[16px] font-medium text-[#A1A1AA]`}
+          >
             Monthly
           </button>
 
-          <button className="inline-flex h-[100%] w-[72px] items-center justify-center rounded-[4px] px-[12px] py-[6px] font-Inter text-[16px] font-medium text-[#A1A1AA]">
+          <button
+            onClick={() => priceChange("yearly")}
+            className={`price-btn ${!priceUpdate ? "active" : ""} inline-flex h-[100%] w-[72px] items-center justify-center rounded-[4px] px-[12px] py-[6px] font-Inter text-[16px] font-medium text-[#A1A1AA]`}
+          >
             Yearly
           </button>
         </div>
 
         <div className="flex items-center gap-[32px]">
-          <div className="shadow-Shadow2 w-[288px] rounded-[8px] border border-solid border-[#3F3F46] bg-[#09090B] px-[24px] pb-[29px] pt-[21px]">
+          <div className="w-[288px] rounded-[8px] border border-solid border-[#3F3F46] bg-[#09090B] px-[24px] pb-[29px] pt-[21px] shadow-Shadow2">
             <h4 className="font-Inter text-[18px] font-semibold leading-[28px] tracking-[-0.45px] text-[#D4D4D8]">
               VPS Lite
             </h4>
@@ -53,7 +66,10 @@ const TradingPricing = () => {
             </h6>
 
             <h3 className="mb-[12px] mt-[6px] font-Inter text-[30px] font-bold leading-[36px] text-[#FAFAFA]">
-              $20 <span className="text-[14px] font-normal">/month</span>
+              ${priceUpdate ? "20" : "200"}{" "}
+              <span className="text-[14px] font-normal">
+                /{priceUpdate ? "month" : "year"}
+              </span>
             </h3>
 
             <p className="text-[14px] font-medium leading-[20px] text-[#FFFFFF]">
@@ -90,7 +106,7 @@ const TradingPricing = () => {
             </div>
           </div>
 
-          <div className="shadow-Shadow2 w-[303px] rounded-[8px] border border-solid border-[#FF4200] bg-[#09090B] px-[24px] pb-[33px] pt-[21px]">
+          <div className="w-[303px] rounded-[8px] border border-solid border-[#FF4200] bg-[#09090B] px-[24px] pb-[33px] pt-[21px] shadow-Shadow2">
             <h4 className="font-Inter text-[18px] font-semibold leading-[28px] tracking-[-0.45px] text-[#D4D4D8]">
               VPS Max
             </h4>
@@ -100,7 +116,10 @@ const TradingPricing = () => {
             </h6>
 
             <h3 className="mb-[12px] mt-[6px] font-Inter text-[30px] font-bold leading-[36px] text-[#FAFAFA]">
-              $40 <span className="text-[14px] font-normal">/month</span>
+              ${priceUpdate ? "40" : "400"}{" "}
+              <span className="text-[14px] font-normal">
+                /{priceUpdate ? "month" : "year"}
+              </span>
             </h3>
 
             <p className="text-[14px] font-medium leading-[20px] text-[#FFFFFF]">
@@ -137,7 +156,7 @@ const TradingPricing = () => {
             </div>
           </div>
 
-          <div className="shadow-Shadow2 bg-linearGradient2 w-[288px] rounded-[8px] border border-solid border-[#3F3F46] px-[24px] pb-[29px] pt-[21px]">
+          <div className="w-[288px] rounded-[8px] border border-solid border-[#3F3F46] bg-linearGradient2 px-[24px] pb-[29px] pt-[21px] shadow-Shadow2">
             <h4 className="font-Inter text-[18px] font-semibold leading-[28px] tracking-[-0.45px] text-[#D4D4D8]">
               VPS Ultra
             </h4>
@@ -147,7 +166,10 @@ const TradingPricing = () => {
             </h6>
 
             <h3 className="mb-[12px] mt-[6px] font-Inter text-[30px] font-bold leading-[36px] text-[#FAFAFA]">
-              $80 <span className="text-[14px] font-normal">/month</span>
+              ${priceUpdate ? "80" : "800"}{" "}
+              <span className="text-[14px] font-normal">
+                /{priceUpdate ? "month" : "year"}
+              </span>
             </h3>
 
             <p className="text-[14px] font-medium leading-[20px] text-[#FFFFFF]">

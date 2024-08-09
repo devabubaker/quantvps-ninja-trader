@@ -24,3 +24,8 @@
     color: #09090b;
   }
 }
+
+.price-btn.active {
+  background-color: #09090b;
+  color: #fafafa;
+}
