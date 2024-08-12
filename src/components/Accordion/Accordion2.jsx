@@ -12,10 +12,10 @@ const Accordion = ({ title, content }) => {
   return (
     <div>
       <div
-        className="flex h-[60px] w-[100%] cursor-pointer select-none items-center justify-between rounded-[8px] bg-[#F3F3F3] pl-[30px] pr-[58px]"
+        className="flex h-[60px] w-[100%] cursor-pointer select-none items-center justify-between rounded-[8px] bg-[#F3F3F3] pl-[30px] pr-[27px] sm:pr-[58px]"
         onClick={toggleAccordion}
       >
-        <h5 className="text-[16px] font-semibold leading-[24px] text-[#15141A]">
+        <h5 className="text-[15.7px] font-semibold leading-[24px] text-[#15141A] sm:text-[16px]">
           {title}
         </h5>
 

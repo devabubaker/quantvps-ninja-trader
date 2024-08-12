@@ -58,6 +58,33 @@ export const CoreFeaturesData = [
   },
 ];
 
+export const CoreFeaturesData2 = [
+  {
+    id: 0,
+    title: "Easy Ordering",
+    content: "Place orders easily, including one-click repeat ordering.",
+  },
+
+  {
+    id: 1,
+    title: "White Label",
+    content: "All services are white label for easy reselling.",
+  },
+
+  {
+    id: 2,
+    title: "Scalable Prices",
+    content:
+      "We offer reliable low prices that are designed with resellers in mind.",
+  },
+
+  {
+    id: 3,
+    title: "Add Your Team",
+    content: "Easily add multiple users to place and manage orders.",
+  },
+];
+
 export const SetupData = [
   {
     id: 0,
@@ -264,6 +291,86 @@ export const AccordionData3 = [
   {
     id: 10,
     title: "Do you offer dedicated servers for NinjaTrader?",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+];
+
+export const AccordionData32 = [
+  {
+    id: 0,
+    title: "What is link building?",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 1,
+    title: "Why should I use link building services to gain backlinks?",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 2,
+    title: "What are the benefits of link building and backlinks?",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 3,
+    title: "Which is the best link type for link building?",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 4,
+    title: "What are link building services?",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 5,
+    title:
+      "Which countries can your link building services secure backlinks from?",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 6,
+    title: "How long are my links live for?",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 7,
+    title: "Can you build backlinks to any page?",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 8,
+    title: "How do you find the sites you build links with?",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 9,
+    title: "Will I get a backlink report?",
+    content:
+      "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
+  },
+
+  {
+    id: 10,
+    title: "Do you offer link building packages?",
     content:
       "Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.",
   },

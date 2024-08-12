@@ -8,12 +8,133 @@ import Paypal from "../../assets/images/icons/paypal.svg";
 import Visa from "../../assets/images/icons/visa.svg";
 import Mastercard from "../../assets/images/icons/mastercard.svg";
 import Stripe from "../../assets/images/icons/stripe.svg";
+import OnlineImg from "../../assets/images/online-img.png";
 
 const Footer = () => {
   return (
-    <footer className="border border-solid border-[#00000014]">
-      <div className="container px-[120px] pb-[32px] pt-[29px]">
-        <div className="px-[16px]">
+    <footer className="border-solid border-[#00000014] sm:border">
+      <div className="container px-[120px] pb-[32px] pl-[24px] pr-[10px] pt-[29px] sm:pl-[120px] sm:pr-[120px]">
+        <div className="sm:px-[16px]">
+          <div className="sm:hidden">
+            <h5 className="mb-[13px] font-Geist text-[14px] font-bold leading-[24px] text-[#374151]">
+              Client Menu
+            </h5>
+
+            <ul className="flex flex-col gap-[10px]">
+              <li>
+                <NavLink className="font-Geist text-[14px] font-normal leading-[24px] text-[#666666]">
+                  Client Login
+                </NavLink>
+              </li>
+
+              <li>
+                <NavLink className="font-Geist text-[14px] font-normal leading-[24px] text-[#666666]">
+                  Open a Support Ticket
+                </NavLink>
+              </li>
+
+              <li>
+                <NavLink className="font-Geist text-[14px] font-normal leading-[24px] text-[#666666]">
+                  Manage Billing
+                </NavLink>
+              </li>
+
+              <li>
+                <NavLink className="font-Geist text-[14px] font-normal leading-[24px] text-[#666666]">
+                  Deploy New Server
+                </NavLink>
+              </li>
+            </ul>
+          </div>
+
+          <div className="my-[24px] sm:hidden">
+            <h5 className="mb-[13px] font-Geist text-[14px] font-bold leading-[24px] text-[#374151]">
+              Resources
+            </h5>
+
+            <div className="flex">
+              <ul className="flex w-[204.91px] flex-col gap-[10px]">
+                <li>
+                  <NavLink className="font-Geist text-[14px] font-normal leading-[24px] text-[#666666]">
+                    FAQ
+                  </NavLink>
+                </li>
+
+                <li>
+                  <NavLink className="font-Geist text-[14px] font-normal leading-[24px] text-[#666666]">
+                    Pricing
+                  </NavLink>
+                </li>
+
+                <li>
+                  <NavLink className="font-Geist text-[14px] font-normal leading-[24px] text-[#666666]">
+                    Compatibility
+                  </NavLink>
+                </li>
+
+                <li>
+                  <NavLink className="font-Geist text-[14px] font-normal leading-[24px] text-[#666666]">
+                    Features
+                  </NavLink>
+                </li>
+
+                <li>
+                  <NavLink className="font-Geist text-[14px] font-normal leading-[24px] text-[#666666]">
+                    FAQ
+                  </NavLink>
+                </li>
+              </ul>
+
+              <ul className="flex w-[204.91px] flex-col gap-[10px]">
+                <li>
+                  <NavLink className="font-Geist text-[14px] font-normal leading-[24px] text-[#666666]">
+                    Knolwedgebase
+                  </NavLink>
+                </li>
+
+                <li>
+                  <NavLink className="font-Geist text-[14px] font-normal leading-[24px] text-[#666666]">
+                    Blog
+                  </NavLink>
+                </li>
+
+                <li>
+                  <NavLink className="font-Geist text-[14px] font-normal leading-[24px] text-[#666666]">
+                    Support
+                  </NavLink>
+                </li>
+
+                <li>
+                  <NavLink className="font-Geist text-[14px] font-normal leading-[24px] text-[#666666]">
+                    Login
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <img src={OnlineImg} alt="image" className="max-w-[215px]" />
+          </div>
+
+          <div className="my-[24px] sm:hidden">
+            <h5 className="mb-[13px] font-Geist text-[14px] font-bold leading-[24px] text-[#374151]">
+              Socials
+            </h5>
+
+            <ul className="flex items-center gap-[16px]">
+              {[Instagram, Youtube, Telegram, Discord, Twitter].map(
+                (item, i) => (
+                  <li key={i}>
+                    <NavLink>
+                      <img src={item} alt="icon" />
+                    </NavLink>
+                  </li>
+                ),
+              )}
+            </ul>
+          </div>
+
           <ul className="flex items-center gap-[5px] text-[#666666]">
             <li>
               <NavLink className="font-Inter text-[12px] font-light leading-[18px] text-[#666666] underline">
@@ -55,7 +176,8 @@ const Footer = () => {
           </ul>
 
           <p className="my-[16px] font-Inter text-[12px] font-normal leading-[18px] text-[#666666]">
-            Copyright © 2016-2024 QuantVPS.com
+            Copyright © 2013-2024 www.QuantVPS.com <br />
+            Address: 315 E Cermak Road, Chicago, Illinois
           </p>
 
           <ul className="flex items-center gap-[5px] text-[#666666]">
@@ -113,7 +235,7 @@ const Footer = () => {
             products on this website.
           </p>
 
-          <div className="mt-[22px] flex h-[48px] w-[100%] items-center justify-between pl-[29.8px] pr-[15px]">
+          <div className="mt-[22px] hidden h-[48px] w-[100%] items-center justify-between pl-[29.8px] pr-[15px] sm:flex">
             <ul className="flex items-center gap-[16px]">
               {[Instagram, Youtube, Telegram, Discord, Twitter].map(
                 (item, i) => (

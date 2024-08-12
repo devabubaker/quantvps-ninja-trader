@@ -16,15 +16,21 @@ const Home = () => {
 
       <CoreFeatures />
 
-      <Optimize />
+      <div className="hidden lg:block">
+        <Optimize />
+      </div>
 
       <Setup />
 
-      <MoreInformation />
+      <div className="hidden md:block">
+        <MoreInformation />
+      </div>
 
       <Faq />
 
-      <Online />
+      <div className="hidden md:block">
+        <Online />
+      </div>
     </>
   );
 };
