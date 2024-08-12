@@ -7,8 +7,8 @@ const Hero = () => {
   return (
     <section className="h-[577px] w-[100%]">
       <div className="container h-[100%] w-[100%] px-[20px] pb-[20px] md:px-[50px] lg:px-[80px]">
-        <div className="mt-[24px] grid h-[100%] w-[100%] grid-cols-1 sm:mt-0 sm:items-center lg:grid-cols-2">
-          <div className="flex flex-col items-center lg:block">
+        <div className="mt-[24px] grid h-[100%] w-[100%] grid-cols-1 sm:mt-0 sm:items-center md:grid-cols-2">
+          <div className="flex flex-col items-center md:block">
             <div className="max-w-[487px]">
               <h1 className="text-[40px] font-semibold leading-[39.93px] text-[#000000] sm:text-[60px] sm:leading-[70px]">
                 VPS Hosting for

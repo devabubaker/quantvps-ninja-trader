@@ -16,7 +16,7 @@ const Home = () => {
 
       <CoreFeatures />
 
-      <div className="hidden lg:block">
+      <div className="hidden md:block">
         <Optimize />
       </div>
 

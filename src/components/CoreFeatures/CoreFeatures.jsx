@@ -27,7 +27,7 @@ const CoreFeatures = () => {
           </h6>
         </div>
 
-        <div className="my-[50px] hidden grid-cols-2 gap-[32px] sm:grid lg:grid-cols-4">
+        <div className="my-[50px] hidden grid-cols-2 gap-[32px] sm:grid md:grid-cols-3 lg:grid-cols-4">
           {CoreFeaturesData.map((item) => (
             <div key={item.id} className="px-[16px]">
               <img src={OrangeCheckIcon} alt="icon" />

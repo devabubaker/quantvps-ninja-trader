@@ -32,7 +32,7 @@ const TradingPricing = () => {
           <img
             src={TradingPricingArrow}
             alt="vector"
-            className="absolute right-[35px] top-[30px] scale-x-[-1] sm:static"
+            className="absolute right-[35px] top-[30px] scale-x-[-1] sm:right-[200px] md:static"
           />
         </div>
 
