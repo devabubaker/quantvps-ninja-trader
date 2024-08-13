@@ -8,6 +8,7 @@ import Features from "./Features";
 import Faq from "./Faq";
 import Support from "./Support";
 import WhatServer from "./WhatServer";
+import Taha from "./Taha";
 
 const App = () => {
   return (
@@ -28,6 +29,8 @@ const App = () => {
           <Route path="/Support" element={<Support />} />
 
           <Route path="/WhatServer" element={<WhatServer />} />
+
+          <Route path="/Taha" element={<Taha />} />
         </Routes>
         <Footer />
       </BrowserRouter>

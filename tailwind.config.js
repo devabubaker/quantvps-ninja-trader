@@ -22,8 +22,21 @@ export default {
         Shadow3: "0px 7.86px 30.48px -2.62px #10182833",
         Shadow4: "0px 4px 6px -1px #0000001A",
       },
-      keyframes: {},
-      animation: {},
+      animation: {
+        orbit: "orbit calc(var(--duration)*1s) linear infinite",
+      },
+      keyframes: {
+        orbit: {
+          "0%": {
+            transform:
+              "rotate(0deg) translateY(calc(var(--radius) * 1px)) rotate(0deg)",
+          },
+          "100%": {
+            transform:
+              "rotate(360deg) translateY(calc(var(--radius) * 1px)) rotate(-360deg)",
+          },
+        },
+      },
     },
     screens: {
       sm: "501px",
