@@ -47,7 +47,6 @@
 .mobile-nav li {
   position: relative;
   left: 20px;
-
   opacity: 0;
 }
 .open-side li {
