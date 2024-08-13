@@ -4,13 +4,42 @@ import DeployServerIcon from "../../assets/images/icons/deploy-server-icon.svg";
 import LogoIcon from "../../assets/images/logo-icon.png";
 import HamburgerIcon from "../../assets/images/icons/hamburger.svg";
 import CloseIcon from "../../assets/images/icons/close.svg";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const Header = () => {
   const [isActive, setIsActive] = useState(false);
+  const [isDropdownActive, setIsDropdownActive] = useState();
+  const pricingBtnRef = useRef(null);
+
+  useEffect(() => {
+    if (isActive) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+
+    return () => {
+      document.body.classList.remove("no-scroll");
+    };
+  }, [isActive]);
 
   const toggleNav = () => {
     setIsActive(!isActive);
+  };
+
+  const dropdownVisible = () => {
+    setIsDropdownActive(true);
+  };
+
+  const dropdownHide = () => {
+    setIsDropdownActive(false);
+  };
+
+  const handlePricingClick = (event) => {
+    if (isActive) {
+      event.preventDefault();
+      setIsDropdownActive(!isDropdownActive);
+    }
   };
 
   return (
@@ -37,7 +66,10 @@ const Header = () => {
         <div className="container flex items-center justify-between px-[5px] py-[10px] sm:px-[32px]">
           <div className="flex items-center gap-[40px]">
             <div>
-              <NavLink to="/" className="flex items-center gap-[13px]">
+              <NavLink
+                to="/"
+                className="relative z-[999] flex items-center gap-[13px]"
+              >
                 <div>
                   <img
                     src={LogoIcon}
@@ -62,8 +94,9 @@ const Header = () => {
 
             <div className="hidden lg:block">
               <ul className="nav-list flex items-center gap-[24px]">
-                <li>
+                <li onMouseLeave={dropdownHide} className="relative">
                   <NavLink
+                    onMouseEnter={dropdownVisible}
                     to="/Pricing"
                     className="group inline-flex h-[20px] items-center gap-[10px] font-Geist text-[14px] font-normal leading-[20px] text-[#09090B99] transition-all duration-[0.3s] hover:text-[#09090B]"
                   >
@@ -84,6 +117,36 @@ const Header = () => {
                         className="transition-all duration-[0.3s] group-hover:stroke-[#09090B]"
                       />
                     </svg>
+                    {isDropdownActive && (
+                      <ul className="dropdown absolute top-[100%] w-[150px] bg-[#ffffff]">
+                        <li>
+                          <NavLink
+                            to=""
+                            className="inline-block w-[100%] border border-solid border-[#E4E4E766] px-[5px] py-[10px] font-Geist text-[14px] font-normal leading-[20px] text-[#09090B99]"
+                          >
+                            Item 1
+                          </NavLink>
+                        </li>
+
+                        <li>
+                          <NavLink
+                            to=""
+                            className="inline-block w-[100%] border border-solid border-[#E4E4E766] px-[5px] py-[10px] font-Geist text-[14px] font-normal leading-[20px] text-[#09090B99]"
+                          >
+                            Item 2
+                          </NavLink>
+                        </li>
+
+                        <li>
+                          <NavLink
+                            to=""
+                            className="inline-block w-[100%] border border-solid border-[#E4E4E766] px-[5px] py-[10px] font-Geist text-[14px] font-normal leading-[20px] text-[#09090B99]"
+                          >
+                            Item 3
+                          </NavLink>
+                        </li>
+                      </ul>
+                    )}
                   </NavLink>
                 </li>
 
@@ -147,13 +210,13 @@ const Header = () => {
               </NavLink>
             </div>
 
-            <button className="inline-flex h-[32px] w-[122px] items-center justify-center rounded-[6px] bg-[#000000] text-[14px] font-medium text-[#ffffff] lg:hidden">
+            <button className="relative z-[999] inline-flex h-[32px] w-[122px] items-center justify-center rounded-[6px] bg-[#000000] text-[14px] font-medium text-[#ffffff] lg:hidden">
               Deploy Server
             </button>
 
             <button
               onClick={toggleNav}
-              className="relative inline-flex h-[36px] w-[52px] rounded-[20px] border border-solid border-[#D4D4D4] lg:hidden"
+              className="relative z-[999] inline-flex h-[36px] w-[52px] rounded-[20px] border border-solid border-[#D4D4D4] lg:hidden"
             >
               {isActive ? (
                 <img
@@ -172,14 +235,21 @@ const Header = () => {
           </div>
         </div>
 
+        {/* Mobile Navigation */}
+
         <div
-          className={`mobile-nav absolute top-[100%] z-[998] flex w-[100%] items-center justify-center overflow-hidden border-b border-solid border-[#E4E4E766] bg-[#ffffff] transition-all duration-[0.3s] lg:hidden ${isActive ? "h-[400px]" : "h-[0px]"}`}
+          className={`mob-nav-overlay fixed left-0 top-0 z-[998] h-[100vh] w-[100%] bg-[#0000002d] transition-all duration-[0.5s] ease-linear ${isActive ? "pointer-events-auto opacity-[1]" : "pointer-events-none opacity-[0]"}`}
+        ></div>
+
+        <div
+          className={`mobile-nav fixed top-0 z-[998] flex h-[100vh] w-[100%] items-center justify-start border border-solid border-[#E4E4E766] bg-[#ffffff] transition-all duration-[0.5s] ease-linear sm:w-[50%] lg:hidden ${isActive ? "open-side right-0" : "right-[-100%]"}`}
         >
-          <ul className="nav-list flex flex-col items-center gap-[24px]">
-            <li>
+          <ul className="nav-list flex w-[100%] flex-col items-start gap-[12px] pl-[20px] sm:pl-[50px]">
+            <li className="relative w-[100%]">
               <NavLink
+                onClick={handlePricingClick}
                 to="/Pricing"
-                className="group inline-flex h-[20px] items-center gap-[10px] font-Geist text-[14px] font-normal leading-[20px] text-[#09090B99] transition-all duration-[0.3s] hover:text-[#09090B]"
+                className="group relative inline-flex h-[20px] items-center gap-[10px] font-Geist text-[14px] font-normal leading-[20px] text-[#09090B99] transition-all duration-[0.3s] hover:text-[#09090B]"
               >
                 <span>Pricing</span>{" "}
                 <svg
@@ -199,6 +269,37 @@ const Header = () => {
                   />
                 </svg>
               </NavLink>
+
+              {isDropdownActive && (
+                <ul className="dropdown w-[100%] bg-[#ffffff]">
+                  <li>
+                    <NavLink
+                      to=""
+                      className="inline-block w-[100%] border-b border-solid border-[#E4E4E766] px-[5px] py-[10px] font-Geist text-[14px] font-normal leading-[20px] text-[#09090B99]"
+                    >
+                      Item 1
+                    </NavLink>
+                  </li>
+
+                  <li>
+                    <NavLink
+                      to=""
+                      className="inline-block w-[100%] border-b border-solid border-[#E4E4E766] px-[5px] py-[10px] font-Geist text-[14px] font-normal leading-[20px] text-[#09090B99]"
+                    >
+                      Item 2
+                    </NavLink>
+                  </li>
+
+                  <li>
+                    <NavLink
+                      to=""
+                      className="inline-block w-[100%] border-b border-solid border-[#E4E4E766] px-[5px] py-[10px] font-Geist text-[14px] font-normal leading-[20px] text-[#09090B99]"
+                    >
+                      Item 3
+                    </NavLink>
+                  </li>
+                </ul>
+              )}
             </li>
 
             <li>
@@ -246,7 +347,7 @@ const Header = () => {
               </NavLink>
             </li>
 
-            <div className="flex h-[37px] min-w-[205px] items-center justify-between rounded-[5px] border border-solid border-[#E4E4E7] px-[13px] pb-[7px] pt-[5.5px]">
+            <div className="mt-[40px] flex h-[37px] min-w-[205px] items-center justify-between rounded-[5px] border border-solid border-[#E4E4E7] px-[13px] pb-[7px] pt-[5.5px]">
               <NavLink className="font-Geist text-[13.67px] font-normal leading-[14px] text-[#09090B]">
                 Login
               </NavLink>
