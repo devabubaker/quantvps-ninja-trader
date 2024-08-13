@@ -11,6 +11,7 @@ import MilitaryGrade from "../../assets/images/icons/military-grade.svg";
 import InstantActivation from "../../assets/images/icons/instant-activation.svg";
 import WorkFreeCheck from "../../assets/images/icons/work-free-check.svg";
 import CheckBrokerLatencyArrow from "../../assets/images/icons/check-broker-latency-arrow.svg";
+import PulsatingButton from "../../../@/components/ui/pulsating-button";
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -110,6 +111,8 @@ const TradingPricing = () => {
               <button className="relative z-[2] inline-flex h-[100%] w-[100%] items-center justify-center gap-[4px] rounded-[6px] bg-[#ffffff] font-Inter text-[14px] font-medium text-[#000000]">
                 <span>Deploy Now</span> <img src={DeployNowArrow} alt="icon" />
               </button>
+
+              <PulsatingButton>Taha</PulsatingButton>
 
               <div className="absolute left-0 top-0 z-[1] h-[100%] w-[100%] rounded-[6px] bg-linearGradient1 blur-[5px]"></div>
             </div>

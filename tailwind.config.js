@@ -24,6 +24,7 @@ export default {
       },
       animation: {
         orbit: "orbit calc(var(--duration)*1s) linear infinite",
+        pulse: "pulse var(--duration) ease-out infinite",
       },
       keyframes: {
         orbit: {
@@ -35,6 +36,11 @@ export default {
             transform:
               "rotate(360deg) translateY(calc(var(--radius) * 1px)) rotate(-360deg)",
           },
+        },
+
+        pulse: {
+          "0%, 100%": { boxShadow: "0 0 0 0 var(--pulse-color)" },
+          "50%": { boxShadow: "0 0 0 8px var(--pulse-color)" },
         },
       },
     },

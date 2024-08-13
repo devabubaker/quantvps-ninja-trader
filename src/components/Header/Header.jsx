@@ -244,12 +244,12 @@ const Header = () => {
         <div
           className={`mobile-nav fixed top-0 z-[998] flex h-[100vh] w-[100%] items-center justify-start border border-solid border-[#E4E4E766] bg-[#ffffff] transition-all duration-[0.5s] ease-linear sm:w-[50%] lg:hidden ${isActive ? "open-side right-0" : "right-[-100%]"}`}
         >
-          <ul className="nav-list flex w-[100%] flex-col items-start gap-[12px] pl-[20px] sm:pl-[50px]">
+          <ul className="nav-list flex w-[100%] flex-col items-start gap-[15px] pl-[20px] sm:pl-[50px]">
             <li className="relative w-[100%]">
               <NavLink
                 onClick={handlePricingClick}
                 to="/Pricing"
-                className="group relative inline-flex h-[20px] items-center gap-[10px] font-Geist text-[14px] font-normal leading-[20px] text-[#09090B99] transition-all duration-[0.3s] hover:text-[#09090B]"
+                className="group relative inline-flex h-[20px] items-center gap-[10px] font-Geist text-[20px] font-normal leading-[20px] text-[#09090B99] transition-all duration-[0.3s] hover:text-[#09090B]"
               >
                 <span>Pricing</span>{" "}
                 <svg
@@ -305,7 +305,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/Compatibility"
-                className="inline-flex h-[20px] font-Geist text-[14px] font-normal leading-[20px] text-[#09090B99] transition-all duration-[0.3s] hover:text-[#09090B]"
+                className="inline-flex h-[20px] font-Geist text-[20px] font-normal leading-[20px] text-[#09090B99] transition-all duration-[0.3s] hover:text-[#09090B]"
               >
                 Compatibility
               </NavLink>
@@ -314,7 +314,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/Features"
-                className="inline-flex h-[20px] font-Geist text-[14px] font-normal leading-[20px] text-[#09090B99] transition-all duration-[0.3s] hover:text-[#09090B]"
+                className="inline-flex h-[20px] font-Geist text-[20px] font-normal leading-[20px] text-[#09090B99] transition-all duration-[0.3s] hover:text-[#09090B]"
               >
                 Features
               </NavLink>
@@ -323,7 +323,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/Faq"
-                className="inline-flex h-[20px] font-Geist text-[14px] font-normal leading-[20px] text-[#09090B99] transition-all duration-[0.3s] hover:text-[#09090B]"
+                className="inline-flex h-[20px] font-Geist text-[20px] font-normal leading-[20px] text-[#09090B99] transition-all duration-[0.3s] hover:text-[#09090B]"
               >
                 FAQ
               </NavLink>
@@ -332,7 +332,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/Support"
-                className="inline-flex h-[20px] font-Geist text-[14px] font-normal leading-[20px] text-[#09090B99] transition-all duration-[0.3s] hover:text-[#09090B]"
+                className="inline-flex h-[20px] font-Geist text-[20px] font-normal leading-[20px] text-[#09090B99] transition-all duration-[0.3s] hover:text-[#09090B]"
               >
                 Support
               </NavLink>
@@ -341,7 +341,7 @@ const Header = () => {
             <li>
               <NavLink
                 to="/WhatServer"
-                className="inline-flex h-[20px] font-Geist text-[14px] font-normal leading-[20px] text-[#09090B99] transition-all duration-[0.3s] hover:text-[#09090B]"
+                className="inline-flex h-[20px] font-Geist text-[20px] font-normal leading-[20px] text-[#09090B99] transition-all duration-[0.3s] hover:text-[#09090B]"
               >
                 What server do I need?
               </NavLink>
