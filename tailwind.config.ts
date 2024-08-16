@@ -20,7 +20,14 @@ const config: Config = {
         SfProDisplayRegular: 'sf-pro-display-regular',
         SfProDisplayMedium: 'sf-pro-display-medium',
         SfProDisplaySemibold: 'sf-pro-display-semibold',
-        SfProDisplayBold: 'sf-pro-display-bold'
+        SfProDisplayBold: 'sf-pro-display-bold',
+        GiestUltraThin: 'ultra',
+        GiestThin: 'thins',
+        GiestRegular: 'regulars',
+        GiestMedium: 'mediums',
+        GiestSemiBold: 'semibolds',
+        GiestBold: 'bolds',
+        GiestBlack: 'blacks'
       },
 
       boxShadow: {
@@ -32,7 +39,9 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        linearGradient1: 'linear-gradient(91deg, #2997FF 1.83%, #F9FFEF 98.9%)'
+        linearGradient1: 'linear-gradient(91deg, #2997FF 1.83%, #F9FFEF 98.9%)',
+        linearGradient2:
+          'linear-gradient(143deg, #FFF 18.17%, rgba(255, 255, 255, 0.00) 152.61%)'
       },
       colors: {
         main: '#171717',
