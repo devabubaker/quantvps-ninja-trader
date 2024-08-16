@@ -1,0 +1,237 @@
+@font-face {
+  font-family: geist;
+  src: url(/fonts/GeistVF.ttf);
+}
+
+@font-face {
+  font-family: giestlight;
+  src: url(/fonts/Geist-Light.otf);
+}
+
+@font-face {
+  font-family: giestmedium;
+  src: url(/fonts/Geist-Medium.otf);
+}
+
+@font-face {
+  font-family: geistSemibold;
+  src: url(/fonts/Geist-Semibold.otf);
+}
+
+@font-face {
+  font-family: geistBold;
+  src: url(/fonts/Geist-Bold.otf);
+}
+
+@font-face {
+  font-family: geistNumber;
+  src: url(/fonts/giestnumber.ttf);
+}
+
+@font-face {
+  font-family: sf_regular;
+  src: url(/fonts/SF-Pro-Display-Regular.otf);
+}
+
+@font-face {
+  font-family: sf_medium;
+  src: url(/fonts/SF-Pro-Display-Medium.otf);
+}
+
+@font-face {
+  font-family: sf_light;
+  src: url(/fonts/SF-Pro-Display-Light.otf);
+}
+
+@font-face {
+  font-family: sf_semibold;
+  src: url(/fonts/SF-Pro-Display-Semibold.otf);
+}
+
+@font-face {
+  font-family: sf_bold;
+  src: url(/fonts/SF-Pro-Display-Bold.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: sf_regular; */
+  /* font-family: geist !important; */
+  scroll-behavior: smooth;
+}
+
+/* .font-base{
+  font-family: geist!important;
+}
+.font-medium{
+  font-family: giestmedium!important;
+}
+.font-semibold{
+  font-family: geistSemibold!important;
+} */
+/* .font-semibold{
+  font-family: geistBold!important;
+} */
+
+.font-number {
+  font-family: geistNumber !important;
+}
+
+.bg_radial {
+  background-image: linear-gradient(to right, #6c47ff3c, #fffa6338, #38d9fd32);
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.recharts-cartesian-axis-tick {
+  color: #666666;
+  font-size: 12px;
+}
+
+.bg_sm_gradient {
+  background-image: linear-gradient(to right, #6c47ff0f, #5de4ff1c);
+}
+
+.custom-class {
+  font-weight: 600;
+  /* Equivalent to font-semibold */
+  color: #171717;
+  /* Equivalent to text-[#171717] */
+  letter-spacing: 2.4px;
+  /* Equivalent to -tracking-[2.4px] */
+  font-size: 30px;
+  /* Equivalent to text-[30px] */
+  line-height: 35px;
+  /* Equivalent to leading-[35px] */
+  text-align: center;
+  /* Equivalent to text-center */
+}
+
+@media (min-width: 1024px) {
+  .custom-class {
+    font-size: 40px;
+    /* Equivalent to lg:text-[40px] */
+    line-height: 48px;
+    /* Equivalent to lg:leading-[48px] */
+  }
+}
+
+.custom-shadow {
+  box-shadow: 0 0 30px -10px rgba(0, 0, 0, 0.2);
+}
+
+.ns:hover {
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.08),
+    0 4px 6px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.15s ease;
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #bfe8ff, #85ffff, #4e95ff);
+  /* Replace these colors with your desired gradient */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient2-text {
+  background: linear-gradient(45deg, #ffffff, #b3acbe);
+  /* Replace these colors with your desired gradient */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.StripeElement {
+  margin: 10px 0;
+  outline: 2px solid transparent;
+  padding: 10px 5px;
+  background: #fff;
+
+  border: 1px solid #17171715;
+}
+
+.CardField-expiry {
+  transform: translateX(91px) !important;
+}
+.c2 {
+  left: 0px;
+  transition: 0.5s ease-in-out all;
+}
+.pc1:hover .c2 {
+  left: -150px;
+  transition: 0.5s ease-in-out all;
+}
+.c3 {
+  right: -150px;
+  transition: 0.5s ease-in-out all;
+}
+.pc1:hover .c3 {
+  right: 0px;
+  transition: 0.5s ease-in-out all;
+}
+
+.char {
+  filter: blur(calc(2px * var(--blur, 1)));
+  transition: filter var(--speed, 2s);
+}
+
+.char:hover {
+  --blur: 0;
+  --speed: 0s;
+}
+
+@keyframes donut-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.exampleBtn {
+  display: inline-block;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: black;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: donut-spin 1.2s linear infinite;
+}
+
+.exampleBtn2 {
+  display: inline-block;
+  border: 4px solid rgba(255, 255, 255, 0.1);
+  border-left-color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: donut-spin 1.2s linear infinite;
+}
+
+.intercom-lightweight-app-launcher-icon svg {
+  display: none !important;
+}
+.intercom-lightweight-app-launcher {
+  background: #0e0e10 !important;
+}
+
+.intercom-lightweight-app-launcher-icon {
+  background-image: url(../public/logo.svg);
+  background-size: cover;
+}
+.intercom-rb17xb {
+  background: #0e0e10 !important;
+}
+
+.legal-container > p{
+  padding: 6px;
+}

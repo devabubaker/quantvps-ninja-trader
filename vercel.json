@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/api/.*",
+      "methods": ["POST"],
+      "dest": "/api/:path"
+    }
+  ]
+}

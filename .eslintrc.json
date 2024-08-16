@@ -1,0 +1,66 @@
+{
+  "ignorePatterns": ["build/*"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": ["next/core-web-vitals", "eslint:recommended", "next"],
+  "overrides": [
+    {
+      "env": {
+        "node": true
+      },
+      "files": [".eslintrc.{js,cjs,mjs,jsx,ts,tsx}"],
+      "parserOptions": {
+        "sourceType": "module"
+      }
+    }
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "impliedStrict": true
+    }
+  },
+  "plugins": ["react"],
+  "rules": {
+    "quotes": [2, "single"],
+    "no-extra-parens": [2],
+    "react/jsx-indent": [2, 2],
+    "react/jsx-indent-props": [
+      2,
+      {
+        "indentMode": 2,
+        "ignoreTernaryOperator": true
+      }
+    ],
+    "indent": [2, 2],
+    "jsx-a11y/alt-text": "warn",
+    "react/prop-types": "off",
+    "no-undef": "warn",
+    "no-unused-vars": "warn",
+    "no-useless-escape": "warn",
+    "linebreak-style": ["error", "unix"],
+    "semi": [2, "never"],
+    "comma-dangle": "error",
+    "arrow-parens": ["error", "as-needed"],
+    "no-mixed-spaces-and-tabs": "error",
+    "no-multiple-empty-lines": "error",
+    "no-trailing-spaces": "error",
+    "jsx-quotes": [2, "prefer-single"],
+    "max-len": [
+      "warn",
+      {
+        "code": 120
+      }
+    ]
+  }
+}

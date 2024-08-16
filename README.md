@@ -1,8 +1,39 @@
-# React + Vite
+# .env
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Use .env.local with development params:
 
-Currently, two official plugins are available:
+```bash
+vercel pull && cp .vercel/.env.development.local .env.local
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Deploy to preview:
+
+```bash
+vercel
+```
+
+# Check&format before commit:
+
+```bash
+pnpm run fix
+```
+
+or
+
+```bash
+npx eslint --fix .
+```
+
+## Always pull and merge main changes before commits
+
+### **Do not pull request or push if preview build fails!**
+
+Do not forget to refresh node_modules if package.json had changed
+
+```bash
+pnpm i
+```
+
+(also in any incomprehensible case)
+
+See also [CONTRIBUTING.md](CONTRIBUTING.md) to discover formatting rules
