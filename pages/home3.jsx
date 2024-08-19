@@ -5,6 +5,7 @@ import CounterSection from '../components/CounterSection/CounterSection'
 import BenefitsSection from '../components/BenefitsSection/BenefitsSection'
 import LaunchSection from '../components/LaunchSection/LaunchSection'
 import ServersSection from '../components/ServersSection/ServersSection'
+import DataSection from '../components/DataSection/DataSection'
 
 const home3 = () => {
   return (
@@ -20,6 +21,8 @@ const home3 = () => {
       <LaunchSection />
 
       <ServersSection />
+
+      <DataSection />
 
       <Footer />
     </div>
