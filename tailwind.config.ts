@@ -27,7 +27,8 @@ const config: Config = {
         GiestMedium: 'mediums',
         GiestSemiBold: 'semibolds',
         GiestBold: 'bolds',
-        GiestBlack: 'blacks'
+        GiestBlack: 'blacks',
+        Caveat: ['Caveat Brush', 'cursive']
       },
 
       boxShadow: {

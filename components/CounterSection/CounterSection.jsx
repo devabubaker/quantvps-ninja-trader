@@ -1,3 +1,8 @@
+import Image from 'next/image'
+import EliteTraderLogo from '../../assets/images/elite-trader.svg'
+import NinjaTraderLogo from '../../assets/images/ninja-trader.svg'
+import EquinixLogo from '../../assets/images/euqinix.svg'
+
 const CounterSection = () => {
   return (
     <section className='counter-section relative border-y border-solid border-[#ffffff0a]'>
@@ -30,6 +35,32 @@ const CounterSection = () => {
           <span className='text-white font-SfProRegular text-[14px] leading-[19.6px] opacity-[0.5]'>
             uptime guaranteed
           </span>
+        </div>
+      </div>
+
+      <div className='container flex items-center justify-center gap-[28px] my-[40px]'>
+        <div className='flex flex-col gap-[4px] '>
+          <h6 className='font-SfProMedium text-[9.1px] italic leading-[13.65px] text-[#FFFFFF4D]'>
+            Proud sponsor:
+          </h6>
+
+          <Image src={EliteTraderLogo} alt='image' />
+        </div>
+
+        <div className='flex flex-col gap-[4px]'>
+          <h6 className='font-SfProMedium text-[9.1px] italic leading-[13.65px] text-[#FFFFFF4D]'>
+            Proud authorized vendor:
+          </h6>
+
+          <Image src={NinjaTraderLogo} alt='image' />
+        </div>
+
+        <div className='flex flex-col gap-[4px] '>
+          <h6 className='font-SfProMedium text-[9.1px] italic leading-[13.65px] text-[#FFFFFF4D]'>
+            Powered by:
+          </h6>
+
+          <Image src={EquinixLogo} alt='image' />
         </div>
       </div>
     </section>

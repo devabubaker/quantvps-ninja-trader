@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import HeroBgImg from '../../assets/images/hero-bg-img.svg'
-import HeroBullImg from '../../assets/images/hero-bull-img.svg'
-import HeroLogoImg from '../../assets/images/hero-bg-logo.svg'
-import Trustpilot from '../../assets/images/trustpilot.png'
-import Equinix from '../../assets/images/equinix.png'
+import HeroMainImg from '../../assets/images/ai-command-center.svg'
+import TrustpilotLogo from '../../assets/images/trustpilot-logo.png'
+import TrustpilotStar from '../../assets/images/trustpilot-star.svg'
+import HeroArrow from '../../assets/images/hero-arrow.svg'
 
 const HeroSection = () => {
   return (
@@ -14,41 +14,60 @@ const HeroSection = () => {
         className='absolute top-0 left-0 w-[100%] h-[900px] object-cover'
       />
 
-      <div className='w-[749.581px] h-[716.84px] absolute bottom-[-6.176px] right-[-98.846px]'>
-        <Image
-          src={HeroBullImg}
-          alt='image'
-          className='absolute bottom-0 right-0 z-[2]'
-        />
-
-        <Image
-          src={HeroLogoImg}
-          alt='image'
-          className='absolute bottom-0 left-0  z-[1]'
-        />
+      <div className=' absolute bottom-[0] right-[0px]'>
+        <Image src={HeroMainImg} alt='image' className='' />
       </div>
 
       <div className='container z-[1]'>
         <div className=' relative top-[50%] translate-y-[-50%] max-w-[671px] px-[16px]'>
+          <div className='flex items-center gap-[7.05px] mb-[32px]'>
+            <Image
+              src={TrustpilotLogo}
+              alt='image'
+              className='max-w-[103.07px]'
+            />
+
+            <div className='flex items-center gap-[3.52px]'>
+              <Image src={TrustpilotStar} alt='image' />
+              <Image src={TrustpilotStar} alt='image' />
+              <Image src={TrustpilotStar} alt='image' />
+              <Image src={TrustpilotStar} alt='image' />
+              <Image src={TrustpilotStar} alt='image' />
+            </div>
+
+            <ul className='flex items-center gap-[7.05px]'>
+              <li className='text-[13px] font-GiestRegular leading-[13px] text-white'>
+                <strong className='font-GiestBold'>Excellent</strong> 4.9 out of
+                5
+              </li>
+
+              <li className='w-[3.5px] h-[3.5px] rounded-[50%] bg-white'></li>
+
+              <li className='text-[13px] font-GiestRegular leading-[13px] text-white'>
+                <strong className='font-GiestBold'>52</strong> reviews
+              </li>
+            </ul>
+          </div>
+
           <h1 className='text-[#F5F5F7] max-w-[522px] font-SfProDisplaySemibold text-[48px] leading-[57.6px] tracking-[-0.144px]'>
-            <span className='hero-gradient-text bg-clip-text text-transparent bg-linearGradient1'>
+            <span className='hero-gradient-text text-[#0171E3]'>
               Low Latency
             </span>{' '}
-            Servers for Algo-Trading
+            VPS for Futures Trading
           </h1>
 
           <p className='mt-[12px] mb-[24px] text-[#F9FAFB] font-SfProRegular leading-[22.5px] max-w-[573px] text-[15px]'>
-            Our servers optimized for all brokers, offering a fast + secure
-            environment for executing trades
+            Our trading servers are optimized for all brokers, offering a fast +
+            secure environment for executing algorithmic trading systems
           </p>
 
           <ul className='flex flex-col gap-[11px]'>
             {[
-              '100% uptime guaranteed',
               '1 millisecond latency to CME',
+              '100% uptime guaranteed',
               'Support team on standby 24/7',
               'Chicago or New York Data Center'
-            ].map((item, i) => (
+            ].map((item, i) =>
               <li
                 key={i}
                 className='flex items-center gap-[4px] text-white font-SfProRegular text-[13px] leading-[13px]'>
@@ -68,10 +87,10 @@ const HeroSection = () => {
 
                 {item}
               </li>
-            ))}
+            )}
           </ul>
 
-          <button className='h-[40px] inline-flex justify-center items-center py-[12px] px-[24px] gap-[8px] shadow-Shadow1 text-white font-SfProMedium text-[13px] my-[32px] leading-[19.5px] rounded-[8px] border border-solid border-[#000] bg-[#0171E3]'>
+          <button className='h-[40px] inline-flex justify-center items-center py-[12px] px-[24px] gap-[8px] shadow-Shadow1 text-white font-SfProMedium text-[13px] mt-[32px] leading-[19.5px] rounded-[8px]  bg-[#0171E3]'>
             <svg
               width='16'
               height='17'
@@ -85,13 +104,50 @@ const HeroSection = () => {
                 fill='white'
               />
             </svg>
-            Launch your own VPS now
+            Launch your own VPS now{' '}
+            <svg
+              width='16'
+              height='18'
+              viewBox='0 0 16 18'
+              fill='none'
+              xmlns='http://www.w3.org/2000/svg'>
+              <path
+                d='M8.40983 9.40109L7.80182 8.73511L5.39062 11.6724L5.72823 12.0422L8.40983 9.40109Z'
+                fill='white'
+              />
+              <path
+                d='M4.43832 9.55693L4.55352 9.29054C4.856 8.59229 5.20021 7.91666 5.58392 7.26807L3.51992 7.5257L1.91992 10.9432L3.86232 9.70765L4.43832 9.55693Z'
+                fill='white'
+              />
+              <path
+                d='M7.65475 13.085L7.56355 13.7633L6.43555 15.8891L9.55715 14.1366L9.79875 11.7969C9.19047 12.233 8.55535 12.6224 7.89795 12.9623L7.65475 13.085Z'
+                fill='white'
+              />
+              <path
+                d='M4.89844 9.47473L5.88724 10.5578L7.79124 8.27947L8.82164 9.40813L6.74164 11.4937L7.73044 12.5768C15.0744 8.75442 14.028 2.58009 14.028 2.58009C14.028 2.58009 8.39124 1.43391 4.89844 9.47473ZM11.8792 6.93875C11.6981 7.13682 11.4675 7.27163 11.2165 7.32616C10.9654 7.38068 10.7053 7.35247 10.4689 7.2451C10.2325 7.13772 10.0304 6.95599 9.88828 6.72288C9.74614 6.48976 9.67028 6.21573 9.67028 5.9354C9.67028 5.65507 9.74614 5.38104 9.88828 5.14793C10.0304 4.91481 10.2325 4.73308 10.4689 4.62571C10.7053 4.51833 10.9654 4.49012 11.2165 4.54465C11.4675 4.59917 11.6981 4.73399 11.8792 4.93205C11.9996 5.06374 12.0952 5.22014 12.1604 5.3923C12.2255 5.56447 12.2591 5.74902 12.2591 5.9354C12.2591 6.12178 12.2255 6.30633 12.1604 6.4785C12.0952 6.65066 11.9996 6.80706 11.8792 6.93875Z'
+                fill='white'
+              />
+              <path
+                d='M3.42101 11.7215C3.59879 11.5789 3.76919 11.4256 3.93141 11.2623C4.09837 11.0975 4.25053 10.9156 4.38581 10.719C4.17404 10.8009 3.96991 10.9047 3.77621 11.0292C3.58515 11.1493 3.40033 11.2809 3.22261 11.4235C3.04474 11.5653 2.87434 11.7181 2.71221 11.881C2.54508 12.0456 2.39291 12.2275 2.25781 12.4243C2.46961 12.3432 2.67377 12.2399 2.86741 12.1158C3.05859 11.9959 3.24342 11.8642 3.42101 11.7215Z'
+                fill='white'
+              />
+              <path
+                d='M3.68737 13.6457C3.51824 13.8316 3.35802 14.027 3.20737 14.2311C3.05161 14.4368 2.91292 14.6573 2.79297 14.89C3.00544 14.7586 3.20677 14.6067 3.39457 14.4361C3.58088 14.2711 3.75925 14.0956 3.92897 13.9103C4.09794 13.7243 4.25815 13.5289 4.40897 13.325C4.56453 13.1191 4.7032 12.8986 4.82337 12.666C4.61104 12.7976 4.40972 12.9495 4.22177 13.1199C4.0356 13.2851 3.85724 13.4606 3.68737 13.6457Z'
+                fill='white'
+              />
+              <path
+                d='M6.10217 13.6406C5.95307 13.8183 5.81312 14.0049 5.68297 14.1997C5.55291 14.3971 5.43325 14.6024 5.32457 14.8148C5.21127 15.0269 5.11697 15.2505 5.04297 15.4825C5.22259 15.3346 5.3887 15.1679 5.53897 14.9848C5.68768 14.8072 5.8271 14.6206 5.95657 14.4257C6.08674 14.2311 6.20692 14.0286 6.31657 13.8193C6.4302 13.6072 6.52503 13.3836 6.59977 13.1516C6.42012 13.2969 6.2535 13.4607 6.10217 13.6406Z'
+                fill='white'
+              />
+            </svg>
           </button>
 
-          <div className='flex items-end gap-[31.84px]'>
-            <Image src={Trustpilot} alt='image' className='max-w-[182.16px]' />
+          <div className='flex gap-[6.62px] ml-[168px] mt-[-20px]'>
+            <Image src={HeroArrow} alt='vector' />
 
-            <Image src={Equinix} alt='image' className='max-w-[199.29px]' />
+            <p className='max-w-[165px] mt-[18.34px] font-Caveat text-[24px] leading-[28.8px] text-white'>
+              Starting at just $20/month
+            </p>
           </div>
         </div>
       </div>

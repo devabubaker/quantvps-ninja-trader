@@ -4,6 +4,9 @@ import BenefitsCard1 from '../../assets/images/benefits-card-1.svg'
 import BenefitsCard2 from '../../assets/images/benefits-card-2.svg'
 import BenefitsCard3 from '../../assets/images/benefits-card-3.svg'
 import BenefitsCard4 from '../../assets/images/benefits-card-4.svg'
+import BenefitsGradient1 from '../../assets/images/benefit-gradient-1.svg'
+import BenefitsGradient2 from '../../assets/images/benefit-gradient-2.svg'
+import BenefitsGradient3 from '../../assets/images/benefit-gradient-3.svg'
 
 const BenefitsSection = () => {
   return (
@@ -21,11 +24,29 @@ const BenefitsSection = () => {
           </h6>
 
           <h3 className='text-[#F5F5F7] font-GiestSemiBold text-[40px] leading-[44px]'>
-            The benefits of using a trading server...
+            The benefits of using a trading VPS...
           </h3>
         </div>
 
-        <div className='mt-[32px]'>
+        <div className='mt-[32px] relative'>
+          <Image
+            src={BenefitsGradient1}
+            alt='image'
+            className='absolute top-[27.94px] left-[233.25px] z-[-1]'
+          />
+
+          <Image
+            src={BenefitsGradient2}
+            alt='image'
+            className='absolute top-[155.89px] left-[0px] z-[-1]'
+          />
+
+          <Image
+            src={BenefitsGradient3}
+            alt='image'
+            className='absolute top-[200px] right-[0px] z-[-1]'
+          />
+
           <div className='flex justify-between'>
             <div className='flex flex-col px-[16px] pt-[16px] pb-[32px] w-[712px] rounded-[32px] border-[1.5px] bg-[rgba(40, 40, 40, 0.10)] backdrop-blur-[50px] border-solid border-[#ffffff0a]'>
               <Image
