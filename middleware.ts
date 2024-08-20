@@ -14,8 +14,8 @@ const isPublicRoute = createRouteMatcher([
   '/vps-for-ninjatrader',
   '/api/manage',
   '/api/stripe',
-  '/api/resend-email',
-  '/home3',
+  '/api/resend-email'
+
 ])
 
 const options = {

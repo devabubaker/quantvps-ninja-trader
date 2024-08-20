@@ -1,0 +1,14 @@
+[
+  {
+    "id": "vps-for-ninjatrader",
+    "title": "VPS for NinjaTrader",
+    "content": "This page provides information about using a VPS for NinjaTrader.",
+    "excerpt": "Learn about the benefits of using a VPS for NinjaTrader trading platform."
+  },
+  {
+    "id": "vps-for-metatrader",
+    "title": "VPS for MetaTrader",
+    "content": "This page discusses the advantages of using a VPS for MetaTrader.",
+    "excerpt": "Discover how a VPS can improve your MetaTrader trading experience."
+  }
+]

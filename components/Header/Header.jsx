@@ -23,13 +23,13 @@ const Header = () => {
                 'How It Works',
                 'Pricing',
                 'FAQ'
-              ].map((item, i) => (
+              ].map((item, i) =>
                 <li key={i}>
                   <button className='text-white text-[14px] leading-[21px] font-SfProRegular'>
                     {item}
                   </button>
                 </li>
-              ))}
+              )}
             </ul>
           </div>
 
