@@ -6,6 +6,9 @@ import BenefitsSection from '../components/BenefitsSection/BenefitsSection'
 import LaunchSection from '../components/LaunchSection/LaunchSection'
 import ServersSection from '../components/ServersSection/ServersSection'
 import DataSection from '../components/DataSection/DataSection'
+import VideoSection from '@/components/VideoSection/VideoSection'
+import HowSection from '@/components/HowSection/HowSection'
+import SelectSection from '@/components/SelectSection/SelectSection'
 
 const home3 = () => {
   return (
@@ -23,6 +26,12 @@ const home3 = () => {
       <ServersSection />
 
       <DataSection />
+
+      <VideoSection />
+
+      <HowSection />
+
+      <SelectSection />
 
       <Footer />
     </div>

@@ -154,3 +154,25 @@
     rgba(0, 0, 0, 0) 100%
   );
 }
+
+.number {
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 70%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 1px transparent;
+  color: #151517;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  /* padding-top: 170px;
+  margin-top: -170px; */
+}
+
+.swiper-pagination-bullets {
+  background: red;
+}

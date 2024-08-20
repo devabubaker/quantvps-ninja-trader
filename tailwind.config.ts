@@ -34,7 +34,8 @@ const config: Config = {
       boxShadow: {
         sh: '0px 3px 5px 0px rgba(0, 0, 255, 0.3)',
         Shadow1:
-          '0px 0.998px 0.998px 0px rgba(255, 255, 255, 0.20), 0px 5.988px 11.976px 0px rgba(255, 255, 255, 0.12), 0px 0.998px 1.996px 0px rgba(8, 8, 8, 0.20), 0px 3.992px 3.992px 0px rgba(8, 8, 8, 0.08)'
+          '0px 0.998px 0.998px 0px rgba(255, 255, 255, 0.20), 0px 5.988px 11.976px 0px rgba(255, 255, 255, 0.12), 0px 0.998px 1.996px 0px rgba(8, 8, 8, 0.20), 0px 3.992px 3.992px 0px rgba(8, 8, 8, 0.08)',
+        Shadow2: '2.649px 5.298px 21.192px 0px rgba(248, 248, 248, 0.06)'
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -46,7 +47,9 @@ const config: Config = {
       },
       colors: {
         main: '#171717',
-        body: '#666666'
+        body: '#666666',
+        stroke15card: 'rgba(255, 255, 255, 0.10)',
+        surfaceBackground: 'rgba(40, 40, 40, 0.70)'
       },
       keyframes: {
         'accordion-down': {
