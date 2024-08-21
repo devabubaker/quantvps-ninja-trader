@@ -2,7 +2,7 @@ const LaunchSection = () => {
   return (
     <section>
       <div className='container py-[64px]'>
-        <div className='w-[100%] py-[20px] px-[64px] flex items-center justify-between h-[120px] bg-[#0171E3] shadow-Shadow1 rounded-[32px]'>
+        <div className='btn w-[100%] py-[20px] px-[64px] flex items-center justify-between h-[120px] bg-[#0171E3] rounded-[32px]'>
           <div className='flex gap-[16px]'>
             <svg
               width='40'
@@ -31,7 +31,7 @@ const LaunchSection = () => {
           </div>
 
           <div>
-            <button className='inline-flex justify-center items-center gap-[8px] h-[40px] px-[24px] py-[12px] bg-white rounded-[12px] shadow-Shadow1 font-GiestSemiBold text-[13px] leading-[19.5px] text-[#0171E3]'>
+            <button className='btnWhite inline-flex justify-center items-center gap-[8px] h-[40px] px-[24px] py-[12px] bg-white rounded-[12px] font-GiestSemiBold text-[13px] leading-[19.5px] text-[#0171E3]'>
               Deploy your own server{' '}
               <svg
                 width='16'
