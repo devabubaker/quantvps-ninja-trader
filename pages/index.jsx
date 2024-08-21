@@ -10,6 +10,10 @@ import VideoSection from '@/components/VideoSection/VideoSection'
 import HowSection from '@/components/HowSection/HowSection'
 import SelectSection from '@/components/SelectSection/SelectSection'
 import TrustedSection from '@/components/TrustedSection/TrustedSection'
+import LoveSection from '@/components/LoveSection/LoveSection'
+import FaqSection from '@/components/FaqSection/FaqSection'
+import BannerSection from '@/components/BannerSection/BannerSection'
+import HighSection from '@/components/HighSection/HighSection'
 
 const index = () => {
   return (
@@ -35,6 +39,14 @@ const index = () => {
       <SelectSection />
 
       <TrustedSection />
+
+      <LoveSection />
+
+      <FaqSection />
+
+      <BannerSection />
+
+      <HighSection />
 
       <Footer />
     </div>

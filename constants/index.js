@@ -202,3 +202,93 @@ export const ReviewsData2 = [
       'QuantVPS.com stands out as THE top choice for futures traders seeking reliable, high-performance VPS. The combination of low latency, crazy security measures, stellar customer support, and affordable pricing makes it a convicting option for both novice and experienced traders. Weather you are running complex algorithms or simply want to ensure the fastest execution times, QuantVPS.com provides the necessary tools and infrastructure to enhance your trading experience.'
   }
 ]
+
+export const AccordionData = [
+  {
+    id: 0,
+    title: 'What is a trading VPS (Virtual Private Server)?',
+    content:
+      'A Trading VPS is a Virtual Private Server optimized for financial trading on platforms such as MT4/MT5. It offers traders the ability to run their trading platforms 24/7 in a secure, stable, and fast environment. This is crucial for executing automated trades or strategies that require constant connectivity and low latency.'
+  },
+
+  {
+    id: 1,
+    title:
+      'Why should I use trading server for algorithmic futures, crypto, equities, options, and forex trading?',
+    content:
+      'Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.'
+  },
+
+  {
+    id: 2,
+    title: 'How many automated trading strategies can I run on a single VPS?',
+    content:
+      'Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.'
+  },
+
+  {
+    id: 3,
+    title: 'How do I pick the correct virtual private trading server for me?',
+    content:
+      'Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.'
+  },
+
+  {
+    id: 4,
+    title:
+      'Do you offer support with getting started, and any ongoing support, like NinjaTrader download?',
+    content:
+      'Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.'
+  },
+
+  {
+    id: 5,
+    title: 'How can I access my server from anywhere in the world?',
+    content:
+      'Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.'
+  },
+
+  {
+    id: 6,
+    title:
+      'Why should I use a trading VPS to optimize my futures, forex, or crypto trading?',
+    content:
+      'Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.'
+  },
+
+  {
+    id: 7,
+    title:
+      'What are the benefits of virtual and dedicated private servers for trading?',
+    content:
+      'Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.'
+  },
+
+  {
+    id: 8,
+    title: 'How does QuantVPS compare to ChartVPS?',
+    content:
+      'Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.'
+  },
+
+  {
+    id: 9,
+    title: 'Which brokers does QuantVPS support ultra-low latency for?',
+    content:
+      'Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.'
+  },
+
+  {
+    id: 10,
+    title: 'How can you guarantee 24/7, 100% uptime?',
+    content:
+      'Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.'
+  },
+
+  {
+    id: 11,
+    title: 'Do you offer dedicated servers?',
+    content:
+      'Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.'
+  }
+]

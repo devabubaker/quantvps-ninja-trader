@@ -45,7 +45,9 @@ const config: Config = {
         linearGradient2:
           'linear-gradient(143deg, #FFF 18.17%, rgba(255, 255, 255, 0.00) 152.61%)',
         linearGradient3:
-          'linear-gradient(180deg, #1C1C1C 0%, rgba(28, 28, 28, 0.00) 100%)'
+          'linear-gradient(180deg, #1C1C1C 0%, rgba(28, 28, 28, 0.00) 100%)',
+        linearGradient4:
+          'linear-gradient(0deg, #151517 18.22%, rgba(21, 21, 23, 0.00) 196.36%)'
       },
       colors: {
         main: '#171717',
