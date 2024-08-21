@@ -90,7 +90,7 @@ const HeroSection = () => {
             )}
           </ul>
 
-          <button className='h-[40px] inline-flex justify-center items-center py-[12px] px-[24px] gap-[8px] shadow-Shadow1 text-white font-SfProMedium text-[13px] mt-[32px] leading-[19.5px] rounded-[8px]  bg-[#0171E3]'>
+          <button className='btn h-[40px] inline-flex justify-center items-center py-[12px] px-[24px] gap-[8px]  text-white font-SfProMedium text-[13px] mt-[32px] leading-[19.5px] rounded-[8px]  bg-[#0171E3]'>
             <svg
               width='16'
               height='17'

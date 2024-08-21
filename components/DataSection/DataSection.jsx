@@ -122,7 +122,7 @@ const DataSection = () => {
               </div>
             </div>
 
-            <button className='inline-flex justify-center items-center text-white font-GiestMedium text-[13px] leading-[19.5px] gap-[8px] h-[32px] py-[12px] px-[16px] rounded-[8px] shadow-Shadow1 bg-[#0171E3]'>
+            <button className='btn inline-flex justify-center items-center text-white font-GiestMedium text-[13px] leading-[19.5px] gap-[8px] h-[32px] py-[12px] px-[16px] rounded-[8px] bg-[#0171E3]'>
               <svg
                 width='16'
                 height='17'

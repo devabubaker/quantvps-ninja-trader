@@ -35,11 +35,11 @@ const Header = () => {
 
           <div className='basis-[25%] flex justify-end'>
             <div className='flex items-center gap-[16px]'>
-              <button className='inline-flex justify-center items-center h-[32px] px-[24px] py-[12px] rounded-[8px] border border-solid border-white shadow-Shadow1 text-[13px] font-SfProMedium leading-[19.5px] text-white'>
+              <button className='inline-flex justify-center items-center h-[32px] px-[24px] py-[12px] rounded-[8px] border border-solid border-white  text-[13px] font-SfProMedium leading-[19.5px] text-white'>
                 Get Help
               </button>
 
-              <button className='inline-flex items-center justify-center gap-[8px] h-[32px] py-[12px] px-[16px] rounded-[8px] bg-[#0171E3] shadow-Shadow1 text-[13px] font-SfProMedium leading-[19.5px] text-white'>
+              <button className='btn inline-flex items-center justify-center gap-[8px] h-[32px] py-[12px] px-[16px] rounded-[8px] bg-[#0171E3]  text-[13px] font-SfProMedium leading-[19.5px] text-white'>
                 <Image src={DeployServerIcon} alt='icon' /> Deploy Server
               </button>
             </div>

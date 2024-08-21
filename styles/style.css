@@ -176,3 +176,10 @@
 .swiper-pagination-bullet {
   background-color: #ffffff !important;
 }
+
+.btn {
+  box-shadow: inset 0px 0.998px 0.998px 0px rgba(255, 255, 255, 0.2),
+    inset 0px 5.988px 11.976px 0px rgba(255, 255, 255, 0.12),
+    inset 0px 0.998px 1.996px 0px rgba(8, 8, 8, 0.2),
+    inset 0px 3.992px 3.992px 0px rgba(8, 8, 8, 0.08);
+}
