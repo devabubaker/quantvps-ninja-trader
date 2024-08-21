@@ -183,3 +183,7 @@
     inset 0px 0.998px 1.996px 0px rgba(8, 8, 8, 0.2),
     inset 0px 3.992px 3.992px 0px rgba(8, 8, 8, 0.08);
 }
+
+.swiper-wrapper {
+  transition-timing-function: linear !important;
+}

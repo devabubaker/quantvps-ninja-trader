@@ -43,7 +43,9 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         linearGradient1: 'linear-gradient(91deg, #2997FF 1.83%, #F9FFEF 98.9%)',
         linearGradient2:
-          'linear-gradient(143deg, #FFF 18.17%, rgba(255, 255, 255, 0.00) 152.61%)'
+          'linear-gradient(143deg, #FFF 18.17%, rgba(255, 255, 255, 0.00) 152.61%)',
+        linearGradient3:
+          'linear-gradient(180deg, #1C1C1C 0%, rgba(28, 28, 28, 0.00) 100%)'
       },
       colors: {
         main: '#171717',

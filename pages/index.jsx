@@ -9,6 +9,7 @@ import DataSection from '../components/DataSection/DataSection'
 import VideoSection from '@/components/VideoSection/VideoSection'
 import HowSection from '@/components/HowSection/HowSection'
 import SelectSection from '@/components/SelectSection/SelectSection'
+import TrustedSection from '@/components/TrustedSection/TrustedSection'
 
 const index = () => {
   return (
@@ -32,6 +33,8 @@ const index = () => {
       <HowSection />
 
       <SelectSection />
+
+      <TrustedSection />
 
       <Footer />
     </div>

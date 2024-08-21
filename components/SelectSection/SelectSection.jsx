@@ -765,7 +765,7 @@ const SelectSection = () => {
                     </span>
                   </div>
 
-                  <button className='w-[100%] text-[#5d5d5d] font-GiestSemiBold text-[14px] leading-[20px] py-[10px] shadow-Shadow1 flex items-center justify-center gap-[8px] rounded-[12px] bg-[#232323]'>
+                  <button className='btn w-[100%] text-[#5d5d5d] font-GiestSemiBold text-[14px] leading-[20px] py-[10px] flex items-center justify-center gap-[8px] rounded-[12px] bg-[#232323]'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       width='19'
@@ -1592,7 +1592,7 @@ const SelectSection = () => {
                     </span>
                   </div>
 
-                  <button className='w-[100%] text-[#5d5d5d] font-GiestSemiBold text-[14px] leading-[20px] py-[10px] shadow-Shadow1 flex items-center justify-center gap-[8px] rounded-[12px] bg-[#232323]'>
+                  <button className='btn w-[100%] text-[#5d5d5d] font-GiestSemiBold text-[14px] leading-[20px] py-[10px] flex items-center justify-center gap-[8px] rounded-[12px] bg-[#232323]'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       width='19'
@@ -2419,7 +2419,7 @@ const SelectSection = () => {
                     </span>
                   </div>
 
-                  <button className='w-[100%] text-[#5d5d5d] font-GiestSemiBold text-[14px] leading-[20px] py-[10px] shadow-Shadow1 flex items-center justify-center gap-[8px] rounded-[12px] bg-[#232323]'>
+                  <button className='btn w-[100%] text-[#5d5d5d] font-GiestSemiBold text-[14px] leading-[20px] py-[10px]  flex items-center justify-center gap-[8px] rounded-[12px] bg-[#232323]'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       width='19'
