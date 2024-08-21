@@ -292,3 +292,377 @@ export const AccordionData = [
       'Implement your trading systems on our reliable trading servers collocated within a millisecond of data feeds, brokers, exchanges, and liquidity providers. We offer hardware powerful enough to facilitate throughput of thousands of orders per second at sub-millisecond latency.'
   }
 ]
+
+export const FooterNavigationData = [
+  {
+    id: 0,
+    linkText: 'Home',
+    link: ''
+  },
+
+  {
+    id: 1,
+    linkText: 'Benefits',
+    link: ''
+  },
+
+  {
+    id: 2,
+    linkText: 'Features',
+    link: ''
+  },
+
+  {
+    id: 3,
+    linkText: 'How It Works',
+    link: ''
+  },
+
+  {
+    id: 4,
+    linkText: 'Pricing',
+    link: ''
+  },
+
+  {
+    id: 5,
+    linkText: 'FAQ',
+    link: ''
+  }
+]
+
+export const FooterAboutData = [
+  {
+    id: 0,
+    linkText: 'Broker Latency Check',
+    link: ''
+  },
+
+  {
+    id: 1,
+    linkText: 'Chicago Data Center',
+    link: ''
+  },
+
+  {
+    id: 2,
+    linkText: 'New York Data Center',
+    link: ''
+  },
+
+  {
+    id: 3,
+    linkText: 'Twitter',
+    link: ''
+  },
+
+  {
+    id: 4,
+    linkText: 'Instagram',
+    link: ''
+  },
+
+  {
+    id: 5,
+    linkText: 'YouTube',
+    link: ''
+  }
+]
+
+export const FooterResourcesData = [
+  {
+    id: 0,
+    linkText: 'Documentation',
+    link: ''
+  },
+
+  {
+    id: 1,
+    linkText: 'Tutorials & Tips',
+    link: ''
+  },
+
+  {
+    id: 2,
+    linkText: 'Blog',
+    link: ''
+  },
+
+  {
+    id: 3,
+    linkText: 'Videos',
+    link: ''
+  }
+]
+
+export const FooterSupportData = [
+  {
+    id: 0,
+    linkText: 'Support Articles',
+    link: ''
+  },
+
+  {
+    id: 1,
+    linkText: 'Contact Us',
+    link: ''
+  },
+
+  {
+    id: 2,
+    linkText: 'Systems and Network Status',
+    link: ''
+  }
+]
+
+export const FooterAccountData = [
+  {
+    id: 0,
+    linkText: 'Login',
+    link: ''
+  },
+
+  {
+    id: 1,
+    linkText: 'Deploy New Server',
+    link: ''
+  },
+
+  {
+    id: 2,
+    linkText: 'Chat with Support',
+    link: ''
+  }
+]
+
+export const FooterTradingServersData = [
+  {
+    id: 0,
+    linkText: 'Futures Trading VPS',
+    link: ''
+  },
+
+  {
+    id: 1,
+    linkText: 'Best VPS for Futures Trading',
+    link: ''
+  },
+
+  {
+    id: 2,
+    linkText: 'Best VPS for Crypto Trading',
+    link: ''
+  },
+
+  {
+    id: 3,
+    linkText: 'Best VPS for Forex Trading',
+    link: ''
+  },
+
+  {
+    id: 4,
+    linkText: 'VPS for Interactive Brokers',
+    link: ''
+  },
+
+  {
+    id: 5,
+    linkText: 'VPS for MetaTrader 4',
+    link: ''
+  },
+
+  {
+    id: 6,
+    linkText: 'VPS for MetaTrader 5',
+    link: ''
+  },
+
+  {
+    id: 7,
+    linkText: 'VPS for TradeStation',
+    link: ''
+  },
+
+  {
+    id: 8,
+    linkText: 'VPS for Thinkorswim',
+    link: ''
+  },
+
+  {
+    id: 9,
+    linkText: 'VPS for Sierra Chart',
+    link: ''
+  },
+
+  {
+    id: 10,
+    linkText: 'VPS for NinjaTrader',
+    link: ''
+  },
+
+  {
+    id: 11,
+    linkText: 'VPS for MultiCharts',
+    link: ''
+  },
+
+  {
+    id: 12,
+    linkText: 'Best Trading VPS',
+    link: ''
+  },
+
+  {
+    id: 13,
+    linkText: 'VPS for Coinbase',
+    link: ''
+  },
+
+  {
+    id: 14,
+    linkText: 'VPS for Binance',
+    link: ''
+  },
+
+  {
+    id: 15,
+    linkText: 'VPS for Schwab',
+    link: ''
+  },
+
+  {
+    id: 16,
+    linkText: 'AMD Ryzen VPS',
+    link: ''
+  },
+
+  {
+    id: 17,
+    linkText: 'AMD EPYC VPS',
+    link: ''
+  },
+
+  {
+    id: 18,
+    linkText: 'VPS for Rithmic',
+    link: ''
+  },
+
+  {
+    id: 19,
+    linkText: 'VPS for ByBit',
+    link: ''
+  }
+]
+
+export const FooterMoreServicesData = [
+  {
+    id: 0,
+    linkText: 'Virtual Private Server for Apex Trader Funding',
+    link: ''
+  },
+
+  {
+    id: 1,
+    linkText: 'Chicago Equinix CH1 / CH2 / CH3 VPS',
+    link: ''
+  },
+
+  {
+    id: 2,
+    linkText: 'New York Equinix NY1 / NY2 VPS',
+    link: ''
+  },
+
+  {
+    id: 3,
+    linkText: 'Virtual Private Server for TopStep',
+    link: ''
+  },
+
+  {
+    id: 4,
+    linkText: 'Virtual Private Server for Tradovate',
+    link: ''
+  },
+
+  {
+    id: 5,
+    linkText: 'Windows Server 2022 VPS',
+    link: ''
+  },
+
+  {
+    id: 6,
+    linkText: 'Windows Server 2019 VPS',
+    link: ''
+  },
+
+  {
+    id: 7,
+    linkText: 'Windows Server 2016 VPS',
+    link: ''
+  },
+
+  {
+    id: 8,
+    linkText: 'NYSE NASDAQ Servers',
+    link: ''
+  },
+
+  {
+    id: 9,
+    linkText: 'Futures CME Servers',
+    link: ''
+  },
+
+  {
+    id: 10,
+    linkText: 'Chicago CME VPS',
+    link: ''
+  },
+
+  {
+    id: 11,
+    linkText: 'Windows VPS',
+    link: ''
+  },
+
+  {
+    id: 12,
+    linkText: 'Kinetick VPS',
+    link: ''
+  },
+
+  {
+    id: 13,
+    linkText: 'Linux VPS',
+    link: ''
+  },
+
+  {
+    id: 14,
+    linkText: 'Linux VPS',
+    link: ''
+  },
+
+  {
+    id: 15,
+    linkText: 'MT4 VPS',
+    link: ''
+  },
+
+  {
+    id: 16,
+    linkText: 'MT5 VPS',
+    link: ''
+  },
+
+  {
+    id: 17,
+    linkText: 'CQG VPS',
+    link: ''
+  }
+]
