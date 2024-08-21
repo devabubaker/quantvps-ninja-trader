@@ -173,6 +173,6 @@
   margin-top: -170px; */
 }
 
-.swiper-pagination-bullets {
-  background: red;
+.swiper-pagination-bullet {
+  background-color: #ffffff !important;
 }

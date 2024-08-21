@@ -32,11 +32,9 @@ const HowSection = () => {
           />
 
           <div className='flex flex-col items-center text-center w-[373px]'>
-            <span className='number font-GiestSemiBold text-[180px] leading-[180px]'>
-              1
-            </span>
+            <Image src={OneImage} alt='image' />
 
-            <div className='flex flex-col gap-[.6rem] mt-[-50px]'>
+            <div className='flex flex-col gap-[.6rem] mt-[-30px]'>
               <h4 className='text-[#F8F8F8F2] font-GiestSemiBold text-[24px] leading-[28.8px]'>
                 Sign up with QuantVPS
               </h4>
@@ -48,11 +46,9 @@ const HowSection = () => {
           </div>
 
           <div className='flex flex-col items-center text-center w-[373px]'>
-            <span className='number font-GiestSemiBold text-[180px] leading-[180px]'>
-              2
-            </span>
+            <Image src={TwoImage} alt='image' />
 
-            <div className='flex flex-col gap-[.6rem] mt-[-50px]'>
+            <div className='flex flex-col gap-[.6rem] mt-[-30px]'>
               <h4 className='text-[#F8F8F8F2] font-GiestSemiBold text-[24px] leading-[28.8px]'>
                 Download Software
               </h4>
@@ -65,11 +61,9 @@ const HowSection = () => {
           </div>
 
           <div className='flex flex-col items-center text-center w-[373px]'>
-            <span className='number font-GiestSemiBold text-[180px] leading-[180px]'>
-              3
-            </span>
+            <Image src={ThreeImage} alt='image' />
 
-            <div className='flex flex-col gap-[.6rem] mt-[-50px]'>
+            <div className='flex flex-col gap-[.6rem] mt-[-30px]'>
               <h4 className='text-[#F8F8F8F2] font-GiestSemiBold text-[24px] leading-[28.8px]'>
                 Trade, uninterrupted
               </h4>
