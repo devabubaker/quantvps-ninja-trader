@@ -106,7 +106,7 @@ const Footer = () => {
               </h4>
 
               <ul className='flex flex-col gap-[9.6px]'>
-                {FooterNavigationData.map(item => (
+                {FooterNavigationData.map(item =>
                   <li key={item.id}>
                     <Link
                       href={item.link}
@@ -114,7 +114,7 @@ const Footer = () => {
                       {item.linkText}
                     </Link>
                   </li>
-                ))}
+                )}
               </ul>
             </div>
 
@@ -124,7 +124,7 @@ const Footer = () => {
               </h4>
 
               <ul className='flex flex-col gap-[9.6px]'>
-                {FooterAboutData.map(item => (
+                {FooterAboutData.map(item =>
                   <li key={item.id}>
                     <Link
                       href={item.link}
@@ -132,7 +132,7 @@ const Footer = () => {
                       {item.linkText}
                     </Link>
                   </li>
-                ))}
+                )}
               </ul>
             </div>
           </div>
@@ -144,7 +144,7 @@ const Footer = () => {
               </h4>
 
               <ul className='flex flex-col gap-[9.6px]'>
-                {FooterResourcesData.map(item => (
+                {FooterResourcesData.map(item =>
                   <li key={item.id}>
                     <Link
                       href={item.link}
@@ -152,7 +152,7 @@ const Footer = () => {
                       {item.linkText}
                     </Link>
                   </li>
-                ))}
+                )}
               </ul>
             </div>
 
@@ -162,7 +162,7 @@ const Footer = () => {
               </h4>
 
               <ul className='flex flex-col gap-[9.6px]'>
-                {FooterSupportData.map(item => (
+                {FooterSupportData.map(item =>
                   <li key={item.id}>
                     <Link
                       href={item.link}
@@ -170,7 +170,7 @@ const Footer = () => {
                       {item.linkText}
                     </Link>
                   </li>
-                ))}
+                )}
               </ul>
             </div>
 
@@ -180,7 +180,7 @@ const Footer = () => {
               </h4>
 
               <ul className='flex flex-col gap-[9.6px]'>
-                {FooterAccountData.map(item => (
+                {FooterAccountData.map(item =>
                   <li key={item.id}>
                     <Link
                       href={item.link}
@@ -188,7 +188,7 @@ const Footer = () => {
                       {item.linkText}
                     </Link>
                   </li>
-                ))}
+                )}
               </ul>
             </div>
           </div>
@@ -200,7 +200,7 @@ const Footer = () => {
               </h4>
 
               <ul className='flex flex-col gap-[9.6px]'>
-                {FooterTradingServersData.map(item => (
+                {FooterTradingServersData.map(item =>
                   <li key={item.id}>
                     <Link
                       href={item.link}
@@ -208,7 +208,7 @@ const Footer = () => {
                       {item.linkText}
                     </Link>
                   </li>
-                ))}
+                )}
               </ul>
             </div>
           </div>
@@ -220,7 +220,7 @@ const Footer = () => {
               </h4>
 
               <ul className='flex flex-col gap-[9.6px]'>
-                {FooterMoreServicesData.map(item => (
+                {FooterMoreServicesData.map(item =>
                   <li key={item.id}>
                     <Link
                       href={item.link}
@@ -228,7 +228,7 @@ const Footer = () => {
                       {item.linkText}
                     </Link>
                   </li>
-                ))}
+                )}
               </ul>
             </div>
           </div>
@@ -279,7 +279,7 @@ const Footer = () => {
         <div className='flex items-center mt-[11.47px] justify-between'>
           <div className='flex items-center gap-[17.07px]'>
             <p className='text-[#6E6E73] font-SfProRegular text-[12px] leading-[16px] tracking-[-0.12px]'>
-              Copyright © 2024  <span className='text-[#A1A1A6]'>QuantVPS</span>{' '}
+              Copyright © 2024 <span className='text-[#A1A1A6]'>QuantVPS</span>{' '}
               All rights reserved.
             </p>
 
@@ -420,7 +420,7 @@ const Footer = () => {
             ApplePay,
             GooglePay,
             stripe
-          ].map((item, i) => (
+          ].map((item, i) =>
             <li key={i}>
               <Image
                 src={item}
@@ -428,7 +428,7 @@ const Footer = () => {
                 className={`h-[24px] w-auto ${i === 7 && 'opacity-[0.5]'}`}
               />
             </li>
-          ))}
+          )}
         </ul>
       </div>
     </footer>
