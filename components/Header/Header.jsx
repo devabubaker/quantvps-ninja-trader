@@ -47,7 +47,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className='py-[16px] px-[6px] bg-[#0171E3] flex items-center justify-center gap-[10px]'>
+      <div className='px-[16px] py-[6px] bg-[#0171E3] flex items-center justify-center gap-[10px]'>
         <div className='text-white font-SfProRegular text-[13px] leading-[19.5px]'>
           August VPS Promotion:
         </div>
