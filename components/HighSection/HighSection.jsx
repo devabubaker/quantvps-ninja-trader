@@ -80,7 +80,7 @@ const HighSection = () => {
           )}
         </ul>
 
-        <div className='container flex items-center justify-center gap-[28px]'>
+        <div className=' flex items-center justify-center gap-[28px]'>
           <div className='flex flex-col gap-[4px] '>
             <h6 className='font-SfProMedium text-[9.1px] italic leading-[13.65px] text-[#FFFFFF4D]'>
               Proud sponsor:
