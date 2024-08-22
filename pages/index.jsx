@@ -22,6 +22,8 @@ const index = () => {
 
       <HeroSection />
 
+      {/* test change */}
+
       <CounterSection />
 
       <BenefitsSection />
