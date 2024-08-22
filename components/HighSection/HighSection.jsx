@@ -57,7 +57,7 @@ const HighSection = () => {
             'Expert support team',
             '100% uptime guaranteed',
             '{302,129} deployed VPS'
-          ].map((item, i) =>
+          ].map((item, i) => (
             <li
               key={i}
               className='flex items-center gap-[4px] text-white font-SfProRegular text-[13px] leading-[13px]'>
@@ -77,10 +77,10 @@ const HighSection = () => {
 
               {item}
             </li>
-          )}
+          ))}
         </ul>
 
-        <div className='container flex items-center justify-center gap-[28px]'>
+        <div className=' flex items-center justify-center gap-[28px]'>
           <div className='flex flex-col gap-[4px] '>
             <h6 className='font-SfProMedium text-[9.1px] italic leading-[13.65px] text-[#FFFFFF4D]'>
               Proud sponsor:
