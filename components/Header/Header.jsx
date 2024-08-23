@@ -10,7 +10,7 @@ const Header = () => {
         <div className='flex items-center h-[32px] backdrop-blur-[102px] justify-between max-w-[1200px] mx-auto'>
           <div className='basis-[25%] flex justify-start'>
             <Link href='/'>
-              <Image src={LogoImg} alt='logo' className='max-w-[145px]' />
+              <Image src={LogoImg} alt='logo' className='max-w-[181px]' />
             </Link>
           </div>
 
