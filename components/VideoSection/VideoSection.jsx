@@ -28,7 +28,18 @@ const VideoSection = () => {
       <div className='container py-[48px]'>
         <div className='flex justify-center items-center'>
           <div className='w-[800px] h-[484px] p-[10px] backdrop-blur-[66px] bg-surfaceBackground shadow-Shadow2 rounded-[31px] border-[1.987px] border-solid border-stroke15card '>
-            <Image src={VideoThumbnail} alt='image' />
+            {/* <Image src={VideoThumbnail} alt='image' /> */}
+
+            <iframe
+              className='rounded-[31.78px]'
+              width='100%'
+              height='100%'
+              src='https://www.youtube.com/embed/7aRY9uInkwI?si=Y1Hv3-SLW8OJYx5M'
+              title='YouTube video player'
+              frameborder='0'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              referrerpolicy='strict-origin-when-cross-origin'
+              allowfullscreen></iframe>
           </div>
         </div>
       </div>
