@@ -17,7 +17,7 @@ const DataSection = () => {
     <section>
       <div className='container'>
         <div className='grid grid-cols-2 items-center'>
-          <div className='flex gap-[65px] p-[42px] items-center'>
+          <div className='flex gap-[65px] p-[42px] items-center opacity-[0.5]'>
             <div className='flex flex-col gap-[50.82px]'>
               <Image src={NTLogo} alt='icon' />
 

@@ -94,7 +94,7 @@ const TrustedSection = () => {
                     {item.subTitle}
                   </h4>
 
-                  <p className='text-[#b5b5b5] font-GiestRegular text-[14px] leading-[23.8px] tracking-[-0.4px]'>
+                  <p className='text-[#b5b5b5] font-GiestRegular line-clamp-4 text-[14px] leading-[23.8px] tracking-[-0.4px]'>
                     {item.content}
                   </p>
                 </div>
@@ -151,7 +151,7 @@ const TrustedSection = () => {
                     {item.subTitle}
                   </h4>
 
-                  <p className='text-[#b5b5b5] font-GiestRegular text-[14px] leading-[23.8px] tracking-[-0.4px]'>
+                  <p className='text-[#b5b5b5] line-clamp-4 font-GiestRegular text-[14px] leading-[23.8px] tracking-[-0.4px]'>
                     {item.content}
                   </p>
                 </div>
